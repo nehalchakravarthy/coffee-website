@@ -55,8 +55,6 @@ nav ul li a {
   height: 2.5em;
 }
 
-nav ul li a:hover:not(.active) {
+nav ul li a:hover {
   color: #bce7fd;
-  border: 2px solid #bce7fd;
-  border-radius: 0.25em;
 }
