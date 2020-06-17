@@ -63,6 +63,47 @@ nav ul li a:hover {
   color: #bce7fd;
 }
 
+header {
+  background-image: url(/images/beans.jpg);
+  background-size: cover;
+  padding: 3em;
+  text-align: center;
+  color: white;
+  border-top: 0.5em solid chocolate;
+  border-bottom: 0.5em solid chocolate;
+}
+
+header h1 {
+  font-size: 6em;
+  padding-top: 0.5em;
+  margin-bottom: 0.75em;
+}
+
+header p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+a.button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  background-color: #fb8f67;
+  color: black;
+  margin: 1em;
+  padding: 1.5em;
+  border-radius: 1em;
+}
+
+a.button:hover {
+  background-color: black;
+  color: white;
+}
+
 /* Styling for larger screens */
 @media screen and (min-width: 600px) {
   nav {
