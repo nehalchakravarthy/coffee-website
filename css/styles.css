@@ -62,3 +62,15 @@ nav ul li a {
 nav ul li a:hover {
   color: #bce7fd;
 }
+
+/* Styling for larger screens */
+@media screen and (min-width: 600px) {
+  nav {
+    background-color: #424651;
+  }
+
+  nav ul li {
+    display: inline-block;
+    width: 8em;
+  }
+}
