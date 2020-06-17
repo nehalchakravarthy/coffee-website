@@ -12,6 +12,8 @@ body {
   line-height: 1.5em;
 }
 
+/* Clearfix */
+
 .clearfix:before,
 .clearfix:after {
   content: "";
@@ -30,10 +32,12 @@ h2 {
   font-size: 2em;
 }
 
+/* Remove bullets for list items */
 nav ul {
   list-style: none;
 }
 
+/* General styling of nav-bar elements */
 nav ul li,
 div.button {
   display: block;
