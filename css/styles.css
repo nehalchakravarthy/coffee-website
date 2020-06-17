@@ -104,6 +104,26 @@ a.button:hover {
   color: white;
 }
 
+blockquote {
+  padding: 1em;
+  background-color: wheat;
+  font-size: 1.5em;
+  line-height: 1.2em;
+  text-align: center;
+}
+
+blockquote p {
+  margin: 1em;
+}
+
+footer {
+  padding: 1em;
+  background-color: #fb8f67;
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.2em;
+}
+
 /* Styling for larger screens */
 @media screen and (min-width: 600px) {
   nav {
