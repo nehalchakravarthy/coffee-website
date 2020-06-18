@@ -164,4 +164,22 @@ footer {
     display: inline-block;
     width: 8em;
   }
+
+  .articles section {
+    float: left;
+    width: 31.6666666667%;
+    margin-right: 2.5%;
+  }
+
+  .articles section:last-child {
+    margin-right: 0;
+  }
+
+  .articles section img {
+    height: 20em;
+  }
+
+  .articles section p {
+    height: 15em;
+  }
 }
