@@ -125,23 +125,23 @@ blockquote p {
   background-color: #eb8060;
 }
 
-.article {
+.articles {
   margin: 2em;
 }
 
-section.article {
+.articles section {
   text-align: center;
 }
 
-section.article h2 {
+.articles section h2 {
   padding: 1em;
 }
 
-section.article p {
+.articles section p {
   text-align: justify;
 }
 
-section.article img {
+.articles section img {
   width: 100%;
 }
 
