@@ -95,8 +95,8 @@ a.button {
   background-color: #fb8f67;
   color: black;
   margin: 1em;
-  padding: 1.5em;
-  border-radius: 1em;
+  padding: 1em;
+  border-radius: 0.25em;
 }
 
 a.button:hover {
@@ -116,7 +116,7 @@ blockquote p {
   margin: 1em;
 }
 
-.title {
+#title {
   font-size: 0.8em;
   text-transform: capitalize;
   text-align: center;
