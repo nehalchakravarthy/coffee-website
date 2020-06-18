@@ -116,13 +116,13 @@ blockquote p {
   margin: 1em;
 }
 
-#title {
+.title {
   font-size: 0.8em;
   text-transform: capitalize;
   text-align: center;
   line-height: 3.5em;
   padding: 1.5em;
-  background-color: #eb8060;
+  background-color: #fb8f67;
 }
 
 .articles {
@@ -135,6 +135,7 @@ blockquote p {
 
 .articles section h2 {
   padding: 1em;
+  line-height: 1.2em;
 }
 
 .articles section p {
@@ -143,6 +144,14 @@ blockquote p {
 
 .articles section img {
   width: 100%;
+}
+
+.articles section a {
+  margin-bottom: 1.5em;
+}
+
+.articles section a span {
+  color: black;
 }
 
 footer {
@@ -181,5 +190,22 @@ footer {
 
   .articles section p {
     height: 15em;
+    overflow: hidden;
+  }
+}
+
+@media screen and (min-width: 200px) {
+  .small section {
+    float: left;
+    width: 31.6666666667%;
+    margin-right: 2.5%;
+  }
+
+  .small section:last-child {
+    margin-right: 0;
+  }
+
+  .small section h2 {
+    font-size: 1.25em;
   }
 }
