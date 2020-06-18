@@ -116,6 +116,35 @@ blockquote p {
   margin: 1em;
 }
 
+.title {
+  font-size: 0.8em;
+  text-transform: capitalize;
+  text-align: center;
+  line-height: 3.5em;
+  padding: 1.5em;
+  background-color: #eb8060;
+}
+
+.article {
+  margin: 2em;
+}
+
+section.article {
+  text-align: center;
+}
+
+section.article h2 {
+  padding: 1em;
+}
+
+section.article p {
+  text-align: justify;
+}
+
+section.article img {
+  width: 100%;
+}
+
 footer {
   padding: 0.6em;
   background-color: #fb8f67;
